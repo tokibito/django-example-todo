@@ -1,12 +1,7 @@
-<html>
-<head>
-  <meta charset="utf8">
-</head>
-<body>
-<h1>TODO</h1>
-<a href="{% url 'index' %}">未完了</a>
-<a href="{% url 'index' %}?all=1">全部</a>
-<a href="{% url 'add' %}">追加</a>
+{% extends "base.html" %}
+
+{% block title %}TODO{% endblock %}
+{% block body %}
 <ul>
 {% for todo in todo_list %}
   <li>
@@ -20,5 +15,4 @@
   </li>
 {% endfor %}
 </ul>
-</body>
-</html>
+{% endblock %}

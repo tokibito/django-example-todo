@@ -1,0 +1,19 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+</head>
+<body>
+<h1>{% block title %}TODO{% endblock %}</h1>
+<nav>
+<a href="{% url 'index' %}">未完了</a>
+<a href="{% url 'index' %}?all=1">全部</a>
+<a href="{% url 'add' %}">追加</a>
+</nav>
+<div>
+{% block body %}{% endblock %}
+</div>
+</body>
+</html>

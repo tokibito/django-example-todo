@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: #000;
+  color: #aaa;
+  margin: 0;
+  padding: 5px;
+}
+nav {
+  padding: 5px;
+  border-bottom: solid 2px #000;
+}
