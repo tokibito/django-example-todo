@@ -1,5 +1,5 @@
 from django.contrib import admin
 from .models import Todo
 
-# Todoモデルを管理画面に登録
+# Register your models here.
 admin.site.register(Todo)
