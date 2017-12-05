@@ -17,6 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),  # ドキュメント
     url(r'^admin/', admin.site.urls),  # 管理画面
     url('', include('todo.urls')),  # todoアプリケーションのurls.pyを含める
     # url('', include('todo.urls_classes')),  # クラスベースビューの例

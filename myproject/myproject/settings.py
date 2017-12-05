@@ -39,6 +39,7 @@ ALLOWED_HOSTS = []
 # 有効にするDjangoアプリケーション一覧
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'django.contrib.admindocs',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
