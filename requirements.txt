@@ -1,1 +1,2 @@
 Django==2.0
+docutils==0.14
