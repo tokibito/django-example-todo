@@ -34,10 +34,16 @@ DEBUG = True
 # DEBUG = Falseの場合には設定が必要です
 ALLOWED_HOSTS = []
 
+# 内部IPアドレス一覧
+# django-debug-toolbar等で使います
+INTERNAL_IPS = ['127.0.0.1']
+
 
 # Application definition
 # 有効にするDjangoアプリケーション一覧
 INSTALLED_APPS = [
+    # 'jet.dashboard',
+    # 'jet',
     'django.contrib.admin',
     'django.contrib.admindocs',
     'django.contrib.auth',
@@ -46,6 +52,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'todo',
+    # 'debug_toolbar',
+    # 'django_extensions',
 ]
 
 # 有効にするDjangoミドルウェア一覧
@@ -57,6 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 # URLディスパッチに使うルートモジュール
