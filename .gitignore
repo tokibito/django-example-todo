@@ -2,3 +2,4 @@
 venv
 *.sqlite3
 wheelhouse
+.idea
