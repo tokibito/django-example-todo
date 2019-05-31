@@ -1,6 +1,6 @@
-django-debug-toolbar==1.9.1
-django-extensions==2.0.7
-django-jet==1.0.7
-djangorestframework==3.8.2
-google-api-python-client==1.4.1
+django-debug-toolbar==1.11
+django-extensions==2.1.7
+django-jet==1.0.8
+djangorestframework==3.9.4
+google-api-python-client==1.7.9
 flake8

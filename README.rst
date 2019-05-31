@@ -27,6 +27,13 @@ migrate
    (venv)$ cd myproject
    (venv)$ python manage.py migrate
 
+Make admin user
+===============
+
+::
+
+   (venv)$ python manage.py createsuperuser
+
 runserver
 =========
 
