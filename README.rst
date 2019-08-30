@@ -10,6 +10,11 @@ On Linux::
    $ python3.6 -m venv venv
    $ . venv/bin/activate
 
+On macOS::
+
+   $ python3 -m venv venv
+   $ . venv/bin/activate
+
 On Windows::
 
    > python -m venv venv
