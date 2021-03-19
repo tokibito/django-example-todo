@@ -1,6 +1,6 @@
 django-debug-toolbar==1.11
 django-extensions==2.1.7
 django-jet==1.0.8
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 google-api-python-client==1.7.9
 flake8
