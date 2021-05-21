@@ -8,9 +8,9 @@
 <body>
 <h1>{% block title %}TODO{% endblock %}</h1>
 <nav>
-<a href="{% url 'index' %}">未完了</a>
-<a href="{% url 'index' %}?all=1">全部</a>
-<a href="{% url 'add' %}">追加</a>
+<a href="{% url 'index' %}">In progress Todo</a>
+<a href="{% url 'index' %}?all=1">All Todo</a>
+<a href="{% url 'add' %}">Add</a>
 </nav>
 <div>
 {% block body %}{% endblock %}

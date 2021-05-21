@@ -10,7 +10,7 @@
     {% else %}
       {{ todo.name }}
     {% endif %}
-    <a href="{% url 'edit' pk=todo.pk %}">編集</a>
+    <a href="{% url 'edit' pk=todo.pk %}">Edit</a>
     <a href="{% url 'done' pk=todo.pk %}">done</a>
   </li>
 {% endfor %}
