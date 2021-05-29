@@ -6,3 +6,5 @@ django-jet==1.0.8
 djangorestframework==3.9.4
 google-api-python-client==1.7.9
 flake8
+gunicorn
+django-heroku
