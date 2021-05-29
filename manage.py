@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 import sys
-import django_heroku
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings")
@@ -20,6 +19,4 @@ if __name__ == "__main__":
                 "forget to activate a virtual environment?"
             )
         raise
-        # Activate Django-Heroku.
-    django_heroku.settings(locals())
     execute_from_command_line(sys.argv)
